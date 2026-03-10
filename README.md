@@ -51,7 +51,7 @@ The program then generates and prints the multiplication table based on the prov
 ### 1️⃣ Clone the repository
 
 ```
-git clone https://github.com/your-username/multiplication-table-java.git
+git clone https://github.com/Dheerajparihar111/multiplicationTable
 ```
 
 ---
