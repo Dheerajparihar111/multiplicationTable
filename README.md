@@ -101,6 +101,7 @@ Multiplication Table of 8
 8 x 9 = 72
 8 x 10 = 80
 ```
+<img width="1917" height="1022" alt="multiplication table output 1" src="https://github.com/user-attachments/assets/21024016-070b-477c-a37a-ce139dcd1ee9" />
 
 ---
 
