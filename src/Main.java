@@ -17,7 +17,7 @@ public class Main {
         System.out.println("\nMultiplication Table of " + number + ":\n");
 
         for (int i = 1; i <= range; i++) {
-            System.out.println(number + " x " + i + " = " + (number * i));
+            System.out.println(i+") "+number + " x " + i + " = " + (number * i));
         }
 
         scanner.close();
