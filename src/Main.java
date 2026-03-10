@@ -15,11 +15,11 @@ public class Main {
         int range = scanner.nextInt();
 
         System.out.println("\nMultiplication Table of " + number + ":\n");
-
+        System.out.println("----------------");
         for (int i = 1; i <= range; i++) {
-            System.out.println(i+") "+number + " x " + i + " = " + (number * i));
+            System.out.println("|"+" "+ i+") "+number + " x " + i + " = " + (number * i)+" |");
         }
-
+        System.out.println("-----------------");
         scanner.close();
     }
 }
