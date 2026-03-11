@@ -7,6 +7,7 @@ class homepage{
         System.out.println("| 2) Square               |");
         System.out.println("| 3) Cube                 |");
         System.out.println("| 4) Square Root          |");
+        System.out.println("| 5) EXIT                 |");
         System.out.println("---------------------------");
         System.out.print("Enter Your Choice: ");
     }
@@ -54,6 +55,11 @@ public class Main {
                 int squareNumber = scanner.nextInt();
                 double result = Math.sqrt(squareNumber);
                 System.out.println(result);
+                break;
+            case 5:
+                System.out.println("Thank You For Using Mathametical Table");
+                System.exit(0);
+
         }
         scanner.close();
     }
