@@ -57,7 +57,9 @@ public class Main {
                 System.out.println(result);
                 break;
             case 5:
-                System.out.println("Thank You For Using Mathametical Table");
+                System.out.println("____________________________________________");
+                System.out.println("| Thank You For Using Multiplication Table |" );
+                System.out.println("--------------------------------------------");
                 System.exit(0);
 
         }
