@@ -6,6 +6,7 @@ class homepage{
         System.out.println("| 1) Multiplication Table |");
         System.out.println("| 2) Square               |");
         System.out.println("| 3) Cube                 |");
+        System.out.println("| 4) Square Root          |");
         System.out.println("---------------------------");
         System.out.print("Enter Your Choice: ");
     }
@@ -46,7 +47,13 @@ public class Main {
                 System.out.print("Enter The Number :");
                 int cubeNumber = scanner.nextInt();
                 System.out.println(cubeNumber+" = "+(cubeNumber*cubeNumber*cubeNumber));
-
+                break;
+            case 4:
+                System.out.println("============Square Root Table Generator===========");
+                System.out.println("Enter The Number");
+                int squareNumber = scanner.nextInt();
+                double result = Math.sqrt(squareNumber);
+                System.out.println(result);
         }
         scanner.close();
     }
