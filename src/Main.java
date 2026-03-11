@@ -1,4 +1,5 @@
 import java.util.Scanner;
+import java.math.*;
 class homepage{
  void homepage(){
 
@@ -38,6 +39,13 @@ public class Main {
                 for (int i = 1;i<2;i++){
                     System.out.println(numberSquare +" = "+ (numberSquare*numberSquare));
                 }
+                break;
+            case 3:
+                System.out.println("============Cube Table Generator===========");
+                System.out.println("Enter The Number");
+                int cubeNumber = scanner.nextInt();
+                System.out.println(cubeNumber+" = "+(cubeNumber*cubeNumber*cubeNumber));
+
         }
         scanner.close();
     }
